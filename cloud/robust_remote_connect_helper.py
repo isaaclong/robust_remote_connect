@@ -18,7 +18,7 @@ if args.command == "set_port":
     if args.port is None:
         print("Must use --port option to set port.")
     else:
-        print("Setting port")
+        print("Setting port " + args.port + " for hostname " + args.hostname)
         temp_port_filename = '/tmp/remote_connect_ports/.' + args.hostname + str(time.perf_counter())
         f = open(temp_port_filename, 'w')
         f.write(args.port)
