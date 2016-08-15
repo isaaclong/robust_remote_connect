@@ -1,4 +1,4 @@
-touch ~/.ssh/authorized_keys || echo no authorized keys file && exit
+touch ~/.ssh/authorized_keys || echo no authorized keys file || exit
 sort -u ~/.ssh/authorized_keys ~/robust_remote_connect/field/authorized_keys > /tmp/.authorized_keys;
 mv /tmp/.authorized_keys ~/.ssh/authorized_keys;
 echo keys synced
