@@ -1,2 +1,3 @@
 # Put command restricted keys for remote machines here, keys should be prepended by:
 # command="~/robust_remote_connect/cloud/robust_remote_connect_helper.py [hostname] $SSH_ORIGINAL_COMMAND",
+command="~/robust_remote_connect/cloud/robust_remote_connect_helper.py phonetest  $SSH_ORIGINAL_COMMAND", ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDW6g59Qg2QSbRS+uq05pmW9KWxmv1iixF86wiSKrclzRBUDtfdu5zUsO4QsHxrg2tUSNTaKcf6itO2MGJMZwxegxJBu0wcBgTHgPjEW6LoUDvHn1YkAV+/fM8nrlC/rfZ26cs5R4Ja1YqhCgfmdDgZSfxJ3AsSX00D/DQOK81WCKx4Y2eyNmzdC6etFG3diqnwG0sY13frGQykXGy//j6OzW6klUSs/T26SIKtN0Ny5bpD38jofXBZs8t2zO5BAZNLSV7FHQoJNAl5vUlBOlQ4opnqPBRvaZpfer8hV1Aoqn6ECsFb0D8L8KYCXB9D/SeSOTbDUX4dAbn5Hy4hLcYx android@localhost
